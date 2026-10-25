@@ -18,6 +18,8 @@ from typing import Any
 
 import pytest
 
+from experimental_report import write_experimental_reports
+
 SECTION_NAMES = {
     "test_field": "Конечное поле",
     "test_polynomial": "Многочлены и интерполяция",
@@ -67,6 +69,145 @@ PROPERTY_NAMES = {
     "test_invalid_structure_and_fields": "Проверка структуры и совместимости полей",
 }
 
+TEST_IO = {
+    "test_field_axioms": (
+        "Все элементы и их пары/тройки в GF(p)",
+        "Выполняются нейтральность, обратимость, коммутативность, ассоциативность и дистрибутивность",
+    ),
+    "test_composite_moduli": (
+        "Непростые и недопустимые значения модуля p",
+        "Конструктор отклоняет значение с ValueError",
+    ),
+    "test_noninteger_moduli": (
+        "Логическое, вещественное и строковое значения p",
+        "Конструктор отклоняет значение с TypeError",
+    ),
+    "test_representatives_and_errors": (
+        "Неканонические представители и недопустимые операции",
+        "Значения нормализуются, деление на ноль и неверные типы отклоняются",
+    ),
+    "test_polynomial_identities_and_interpolation": (
+        "Случайные многочлены степени 2 и точки поля",
+        "Алгебраические тождества, вычисление, интерполяция и веса Лагранжа совпадают",
+    ),
+    "test_zero_constant_and_normalization": (
+        "Нулевые, ненормализованные и случайные многочлены",
+        "Получается каноническое представление и требуемая степень",
+    ),
+    "test_invalid_polynomial_inputs": (
+        "Пустые/повторные точки, неверная степень и разные поля",
+        "Операции отклоняются с ValueError",
+    ),
+    "test_all_reconstruction_subsets": (
+        "Каждый секрет GF(p) и все коалиции размера t+1",
+        "Из каждой минимальной коалиции восстанавливается исходный секрет",
+    ),
+    "test_custom_points_and_uniform_zero_leading": (
+        "Пользовательские точки и нулевой поток случайных коэффициентов",
+        "Доли вычисляются в заданных точках, включая многочлен меньшей степени",
+    ),
+    "test_invalid_parameters": (
+        "Недопустимые n, t и точки участников",
+        "Схема отклоняет параметры с ValueError",
+    ),
+    "test_invalid_shares": (
+        "Недостаточные, повторные, чужие и несогласованные доли",
+        "Восстановление отклоняется с ValueError",
+    ),
+    "test_exact_privacy": (
+        "Все секреты, случайности и коалиции размера не более t",
+        "Распределения наблюдений одинаковы для всех секретов",
+    ),
+    "test_statistical_privacy_smoke": (
+        "25 000 разделений с фиксированными seed",
+        "Частоты наблюдаемой доли близки к равномерным в заданном допуске",
+    ),
+    "test_encoding_linearity_generator_and_decoding": (
+        "Случайные сообщения, скаляры и все наборы из k координат",
+        "Кодирование линейно, ранг равен k, исходный многочлен восстанавливается",
+    ),
+    "test_distance_exhaustively": (
+        "Все p^k кодовых слов для малых RS-кодов",
+        "Вычисленное минимальное расстояние равно n-k+1",
+    ),
+    "test_invalid_code": (
+        "Недопустимые n, k и наборы точек",
+        "Конструктор RS-кода отклоняет параметры с ValueError",
+    ),
+    "test_invalid_encoding_decoding_and_budget": (
+        "Неверные сообщения, наблюдения, поля и лимиты перебора",
+        "Операции отклоняются; пустое сообщение кодируется нулевым словом",
+    ),
+    "test_rs_square_computed_spaces": (
+        "Порождающие матрицы RS(n,k) при разных p, n, k",
+        "Размерность и линейная оболочка квадрата совпадают с ожидаемым RS-кодом",
+    ),
+    "test_exhaustive_square_closure_and_distance": (
+        "Все слова исходного кода и квадрата для малых параметров",
+        "Подпространство замкнуто, содержит произведения и имеет ожидаемое расстояние",
+    ),
+    "test_gaussian_elimination_and_generic_square": (
+        "Вырожденная матрица и немономиальная порождающая матрица",
+        "Ранг, приведённая форма, базис и квадрат вычисляются корректно",
+    ),
+    "test_matrix_errors_and_enumeration_guard": (
+        "Некорректные матрицы и превышенный бюджет перебора",
+        "Входы отклоняются до некорректного или слишком большого вычисления",
+    ),
+    "test_products_all_subsets_and_weights": (
+        "Пары секретов и все коалиции размера 2t+1",
+        "Локальные произведения восстанавливают произведение секретов",
+    ),
+    "test_strong_multiplication_by_all_deletions": (
+        "Все удаления не более t участников",
+        "Критерий сильной мультипликативности совпадает с возможностью восстановления",
+    ),
+    "test_insufficiency_is_mathematical_not_only_api": (
+        "Не более 2t локальных произведений",
+        "Получены ранговое и явное полиномиальное свидетельства неоднозначности",
+    ),
+    "test_reconstruction_depends_only_on_product_shares": (
+        "Только значения локальных произведений без исходных разделений",
+        "Произведение секретов восстанавливается напрямую",
+    ),
+    "test_invalid_product_inputs": (
+        "Неполные, повторные, чужие и несогласованные доли",
+        "Операции умножения отклоняются с ValueError",
+    ),
+    "test_exhaustive_access_and_reconstruction": (
+        "Все секреты и все подмножества листьев малых композиций",
+        "Классификация доступа точна, авторизованные множества восстанавливают секрет",
+    ),
+    "test_same_cardinality_does_not_determine_access": (
+        "Два равномощных множества с разным распределением по блокам",
+        "Одно множество авторизовано, второе остаётся неавторизованным",
+    ),
+    "test_exact_privacy_of_all_unauthorized_sets": (
+        "Все секреты, потоки случайности и неавторизованные множества",
+        "Совместные распределения наблюдений не зависят от секрета",
+    ),
+    "test_block_isolation_and_custom_evaluation_points": (
+        "Разные внешние/внутренние точки и записанный поток случайности",
+        "Каждый блок кодирует нужную внешнюю долю с независимой случайностью",
+    ),
+    "test_nested_product_reconstruction": (
+        "Все пары секретов и минимальные наборы блоков/листьев",
+        "Вложенный алгоритм восстанавливает произведение; меньшего набора недостаточно",
+    ),
+    "test_insufficient_product_parameters": (
+        "Композиции, нарушающие n_i≥2t_i+1 или n_o≥2t_o+1",
+        "Мультипликативность не заявляется, восстановление отклоняется",
+    ),
+    "test_invalid_identifiers": (
+        "Отрицательные, выходящие за границы и повторные идентификаторы",
+        "Проверка доступа и восстановление отклоняются",
+    ),
+    "test_invalid_structure_and_fields": (
+        "Несовместимые поля, неверные типы и несовпадающие наборы долей",
+        "Композиция и операции отклоняют некорректную структуру",
+    ),
+}
+
 STATUS_NAMES = {
     "passed": "пройдено",
     "failed": "ошибка",
@@ -79,6 +220,8 @@ STATUS_NAMES = {
 CSV_FIELDS = [
     "section",
     "property",
+    "input_data",
+    "expected_result",
     "module",
     "test",
     "parameters",
@@ -138,6 +281,10 @@ def pytest_collection_modifyitems(config: pytest.Config, items: list[pytest.Item
     for item in items:
         module = item.path.stem
         function_name = getattr(item, "originalname", None) or item.name.split("[")[0]
+        input_data, expected_result = TEST_IO.get(
+            function_name,
+            ("Параметры конкретного теста", "Все утверждения теста выполняются"),
+        )
         callspec = getattr(item, "callspec", None)
         parameters = {}
         if callspec is not None:
@@ -145,6 +292,8 @@ def pytest_collection_modifyitems(config: pytest.Config, items: list[pytest.Item
         state["cases"][item.nodeid] = {
             "section": SECTION_NAMES.get(module, module),
             "property": _display_name(function_name),
+            "input_data": input_data,
+            "expected_result": expected_result,
             "module": module,
             "test": item.name,
             "parameters": json.dumps(parameters, ensure_ascii=False, sort_keys=True),
@@ -181,7 +330,7 @@ def pytest_runtest_makereport(item: pytest.Item, call: pytest.CallInfo[Any]):
 
 def _write_csv(path: Path, cases: list[dict[str, Any]]) -> None:
     with path.open("w", encoding="utf-8", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=CSV_FIELDS)
+        writer = csv.DictWriter(stream, fieldnames=CSV_FIELDS, lineterminator="\n")
         writer.writeheader()
         for case in cases:
             row = dict(case)
@@ -240,8 +389,9 @@ def _write_markdown(
             "",
             "## Матрица проверяемых свойств",
             "",
-            "| Раздел | Проверяемое свойство | Наборов параметров | Результат | Время, с |",
-            "|---|---|---:|---|---:|",
+            "| Раздел | Проверяемое свойство | Входные данные | Ожидаемый результат "
+            "| Наборов | Итог | Время, с |",
+            "|---|---|---|---|---:|---|---:|",
         ]
     )
     for (section, property_name), group in properties.items():
@@ -255,8 +405,11 @@ def _write_markdown(
         else:
             result = "пройдено"
         duration = sum(case["duration_seconds"] for case in group)
+        representative = group[0]
         lines.append(
-            f"| {_escape_cell(section)} | {_escape_cell(property_name)} | {len(group)} "
+            f"| {_escape_cell(section)} | {_escape_cell(property_name)} "
+            f"| {_escape_cell(representative['input_data'])} "
+            f"| {_escape_cell(representative['expected_result'])} | {len(group)} "
             f"| {result} | {duration:.3f} |"
         )
 
@@ -297,7 +450,14 @@ def pytest_sessionfinish(session: pytest.Session, exitstatus: int) -> None:
     output.mkdir(parents=True, exist_ok=True)
     cases = list(state["cases"].values())
     command = _REPORT_COMMAND or shlex.join(
-        [sys.executable, "-m", "pytest", "-p", "research_report", *session.config.invocation_params.args]
+        [
+            sys.executable,
+            "-m",
+            "pytest",
+            "-p",
+            "research_report",
+            *session.config.invocation_params.args,
+        ]
     )
     _write_csv(output / "test-results.csv", cases)
     _write_markdown(
@@ -328,7 +488,10 @@ def main(arguments: list[str] | None = None) -> int:
         output = "results"
         args.extend(["--research-report", output])
     Path(output).mkdir(parents=True, exist_ok=True)
-    return int(pytest.main(args, plugins=[sys.modules[__name__]]))
+    exit_code = int(pytest.main(args, plugins=[sys.modules[__name__]]))
+    if exit_code == 0:
+        write_experimental_reports(Path(output))
+    return exit_code
 
 
 if __name__ == "__main__":
