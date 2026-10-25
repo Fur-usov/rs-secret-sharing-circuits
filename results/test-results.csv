@@ -1,0 +1,110 @@
+section,property,module,test,parameters,status,duration_seconds
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[5-4-1],"{""k"": 1, ""n"": 4, ""p"": 5}",passed,0.000285
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[5-4-2],"{""k"": 2, ""n"": 4, ""p"": 5}",passed,0.000273
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[5-4-3],"{""k"": 3, ""n"": 4, ""p"": 5}",passed,0.000344
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[7-6-2],"{""k"": 2, ""n"": 6, ""p"": 7}",passed,0.000273
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[7-6-4],"{""k"": 4, ""n"": 6, ""p"": 7}",passed,0.000652
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[11-9-3],"{""k"": 3, ""n"": 9, ""p"": 11}",passed,0.000552
+Квадрат кода,Совпадение квадрата кода с ожидаемым RS-пространством,test_code_square,test_rs_square_computed_spaces[17-10-7],"{""k"": 7, ""n"": 10, ""p"": 17}",passed,0.003280
+Квадрат кода,Замкнутость и расстояние квадрата кода,test_code_square,test_exhaustive_square_closure_and_distance[5-4-1],"{""k"": 1, ""n"": 4, ""p"": 5}",passed,0.000280
+Квадрат кода,Замкнутость и расстояние квадрата кода,test_code_square,test_exhaustive_square_closure_and_distance[5-4-2],"{""k"": 2, ""n"": 4, ""p"": 5}",passed,0.002493
+Квадрат кода,Замкнутость и расстояние квадрата кода,test_code_square,test_exhaustive_square_closure_and_distance[5-4-3],"{""k"": 3, ""n"": 4, ""p"": 5}",passed,0.022291
+Квадрат кода,Гауссово исключение и общий квадрат кода,test_code_square,test_gaussian_elimination_and_generic_square,{},passed,0.000843
+Квадрат кода,Ошибки матриц и ограничение перебора,test_code_square,test_matrix_errors_and_enumeration_guard,{},passed,0.000130
+Иерархическая композиция,Полная структура доступа и восстановление,test_concatenation,test_exhaustive_access_and_reconstruction[5-3-1-2-1],"{""ni"": 2, ""no"": 3, ""p"": 5, ""ti"": 1, ""to"": 1}",passed,0.004198
+Иерархическая композиция,Полная структура доступа и восстановление,test_concatenation,test_exhaustive_access_and_reconstruction[5-2-0-3-1],"{""ni"": 3, ""no"": 2, ""p"": 5, ""ti"": 1, ""to"": 0}",passed,0.007227
+Иерархическая композиция,Полная структура доступа и восстановление,test_concatenation,test_exhaustive_access_and_reconstruction[5-3-1-2-0],"{""ni"": 2, ""no"": 3, ""p"": 5, ""ti"": 0, ""to"": 1}",passed,0.008966
+Иерархическая композиция,Полная структура доступа и восстановление,test_concatenation,test_exhaustive_access_and_reconstruction[3-2-1-2-1],"{""ni"": 2, ""no"": 2, ""p"": 3, ""ti"": 1, ""to"": 1}",passed,0.000658
+Иерархическая композиция,Полная структура доступа и восстановление,test_concatenation,test_exhaustive_access_and_reconstruction[3-1-0-1-0],"{""ni"": 1, ""no"": 1, ""p"": 3, ""ti"": 0, ""to"": 0}",passed,0.000288
+Иерархическая композиция,Непороговый характер структуры доступа,test_concatenation,test_same_cardinality_does_not_determine_access,{},passed,0.000096
+Иерархическая композиция,Точная приватность всех неавторизованных множеств,test_concatenation,test_exact_privacy_of_all_unauthorized_sets,{},passed,0.082114
+Иерархическая композиция,Изоляция блоков и пользовательские точки,test_concatenation,test_block_isolation_and_custom_evaluation_points,{},passed,0.000286
+Иерархическая композиция,Вложенное восстановление произведений,test_concatenation,test_nested_product_reconstruction[0-0],"{""ti"": 0, ""to"": 0}",passed,0.009288
+Иерархическая композиция,Вложенное восстановление произведений,test_concatenation,test_nested_product_reconstruction[0-1],"{""ti"": 1, ""to"": 0}",passed,0.015376
+Иерархическая композиция,Вложенное восстановление произведений,test_concatenation,test_nested_product_reconstruction[1-0],"{""ti"": 0, ""to"": 1}",passed,0.013064
+Иерархическая композиция,Вложенное восстановление произведений,test_concatenation,test_nested_product_reconstruction[1-1],"{""ti"": 1, ""to"": 1}",passed,0.021716
+Иерархическая композиция,Недостаточные параметры композиции,test_concatenation,test_insufficient_product_parameters,{},passed,0.000195
+Иерархическая композиция,Отклонение неверных идентификаторов,test_concatenation,test_invalid_identifiers[ids0],"{""ids"": [[-1, 0]]}",passed,0.000131
+Иерархическая композиция,Отклонение неверных идентификаторов,test_concatenation,test_invalid_identifiers[ids1],"{""ids"": [[3, 0]]}",passed,0.000133
+Иерархическая композиция,Отклонение неверных идентификаторов,test_concatenation,test_invalid_identifiers[ids2],"{""ids"": [[0, 2]]}",passed,0.000126
+Иерархическая композиция,Отклонение неверных идентификаторов,test_concatenation,test_invalid_identifiers[ids3],"{""ids"": [[0, 0], [0, 0]]}",passed,0.000124
+Иерархическая композиция,Проверка структуры и совместимости полей,test_concatenation,test_invalid_structure_and_fields,{},passed,0.000166
+Конечное поле,Аксиомы поля GF(p),test_field,test_field_axioms[2],"{""p"": 2}",passed,0.000144
+Конечное поле,Аксиомы поля GF(p),test_field,test_field_axioms[5],"{""p"": 5}",passed,0.000354
+Конечное поле,Аксиомы поля GF(p),test_field,test_field_axioms[7],"{""p"": 7}",passed,0.000774
+Конечное поле,Аксиомы поля GF(p),test_field,test_field_axioms[11],"{""p"": 11}",passed,0.002597
+Конечное поле,Аксиомы поля GF(p),test_field,test_field_axioms[17],"{""p"": 17}",passed,0.009217
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[-11],"{""p"": -11}",passed,0.000121
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[0],"{""p"": 0}",passed,0.000118
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[1],"{""p"": 1}",passed,0.000116
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[4],"{""p"": 4}",passed,0.000126
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[9],"{""p"": 9}",passed,0.000130
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[15],"{""p"": 15}",passed,0.000124
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[25],"{""p"": 25}",passed,0.000127
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[49],"{""p"": 49}",passed,0.000127
+Конечное поле,Отклонение составных модулей,test_field,test_composite_moduli[121],"{""p"": 121}",passed,0.000137
+Конечное поле,Отклонение нецелых модулей,test_field,test_noninteger_moduli[True],"{""p"": true}",passed,0.000118
+Конечное поле,Отклонение нецелых модулей,test_field,test_noninteger_moduli[5.0],"{""p"": 5.0}",passed,0.000123
+Конечное поле,Отклонение нецелых модулей,test_field,test_noninteger_moduli[7],"{""p"": ""7""}",passed,0.000123
+Конечное поле,Нормализация и ошибки арифметики,test_field,test_representatives_and_errors,{},passed,0.000104
+Мультипликативность,Восстановление произведений и веса Лагранжа,test_multiplication,test_products_all_subsets_and_weights[5-4-0],"{""n"": 4, ""p"": 5, ""t"": 0}",passed,0.001054
+Мультипликативность,Восстановление произведений и веса Лагранжа,test_multiplication,test_products_all_subsets_and_weights[5-4-1],"{""n"": 4, ""p"": 5, ""t"": 1}",passed,0.002054
+Мультипликативность,Восстановление произведений и веса Лагранжа,test_multiplication,test_products_all_subsets_and_weights[7-6-2],"{""n"": 6, ""p"": 7, ""t"": 2}",passed,0.010022
+Мультипликативность,Восстановление произведений и веса Лагранжа,test_multiplication,test_products_all_subsets_and_weights[17-8-2],"{""n"": 8, ""p"": 17, ""t"": 2}",passed,0.032164
+Мультипликативность,Восстановление произведений и веса Лагранжа,test_multiplication,test_products_all_subsets_and_weights[101-10-3],"{""n"": 10, ""p"": 101, ""t"": 3}",passed,0.113457
+Мультипликативность,Сильная мультипликативность при всех удалениях,test_multiplication,test_strong_multiplication_by_all_deletions[3-1],"{""n"": 3, ""t"": 1}",passed,0.000239
+Мультипликативность,Сильная мультипликативность при всех удалениях,test_multiplication,test_strong_multiplication_by_all_deletions[4-1],"{""n"": 4, ""t"": 1}",passed,0.000241
+Мультипликативность,Сильная мультипликативность при всех удалениях,test_multiplication,test_strong_multiplication_by_all_deletions[6-2],"{""n"": 6, ""t"": 2}",passed,0.000425
+Мультипликативность,Сильная мультипликативность при всех удалениях,test_multiplication,test_strong_multiplication_by_all_deletions[7-2],"{""n"": 7, ""t"": 2}",passed,0.001299
+Мультипликативность,Сильная мультипликативность при всех удалениях,test_multiplication,test_strong_multiplication_by_all_deletions[1-0],"{""n"": 1, ""t"": 0}",passed,0.000169
+Мультипликативность,Недостаточность числа долей для произведения,test_multiplication,test_insufficiency_is_mathematical_not_only_api[1-1],"{""m"": 1, ""t"": 1}",passed,0.000155
+Мультипликативность,Недостаточность числа долей для произведения,test_multiplication,test_insufficiency_is_mathematical_not_only_api[1-2],"{""m"": 2, ""t"": 1}",passed,0.000154
+Мультипликативность,Недостаточность числа долей для произведения,test_multiplication,test_insufficiency_is_mathematical_not_only_api[2-2],"{""m"": 2, ""t"": 2}",passed,0.000160
+Мультипликативность,Недостаточность числа долей для произведения,test_multiplication,test_insufficiency_is_mathematical_not_only_api[2-3],"{""m"": 3, ""t"": 2}",passed,0.000181
+Мультипликативность,Недостаточность числа долей для произведения,test_multiplication,test_insufficiency_is_mathematical_not_only_api[2-4],"{""m"": 4, ""t"": 2}",passed,0.000210
+Мультипликативность,Независимость от исходных разделений,test_multiplication,test_reconstruction_depends_only_on_product_shares,{},passed,0.000163
+Мультипликативность,Проверка входов умножения,test_multiplication,test_invalid_product_inputs,{},passed,0.000180
+Многочлены и интерполяция,Тождества и интерполяция,test_polynomial,test_polynomial_identities_and_interpolation[5],"{""p"": 5}",passed,0.002733
+Многочлены и интерполяция,Тождества и интерполяция,test_polynomial,test_polynomial_identities_and_interpolation[7],"{""p"": 7}",passed,0.003403
+Многочлены и интерполяция,Тождества и интерполяция,test_polynomial,test_polynomial_identities_and_interpolation[11],"{""p"": 11}",passed,0.004600
+Многочлены и интерполяция,Тождества и интерполяция,test_polynomial,test_polynomial_identities_and_interpolation[17],"{""p"": 17}",passed,0.006225
+Многочлены и интерполяция,Канонический нулевой многочлен,test_polynomial,test_zero_constant_and_normalization,{},passed,0.000142
+Многочлены и интерполяция,Проверка входов многочленов,test_polynomial,test_invalid_polynomial_inputs,{},passed,0.000116
+Коды Рида—Соломона,"Линейность, ранг и декодирование RS",test_reed_solomon,test_encoding_linearity_generator_and_decoding[5-5-1],"{""k"": 1, ""n"": 5, ""p"": 5}",passed,0.000619
+Коды Рида—Соломона,"Линейность, ранг и декодирование RS",test_reed_solomon,test_encoding_linearity_generator_and_decoding[5-4-2],"{""k"": 2, ""n"": 4, ""p"": 5}",passed,0.001182
+Коды Рида—Соломона,"Линейность, ранг и декодирование RS",test_reed_solomon,test_encoding_linearity_generator_and_decoding[7-6-3],"{""k"": 3, ""n"": 6, ""p"": 7}",passed,0.005856
+Коды Рида—Соломона,"Линейность, ранг и декодирование RS",test_reed_solomon,test_encoding_linearity_generator_and_decoding[11-7-4],"{""k"": 4, ""n"": 7, ""p"": 11}",passed,0.017736
+Коды Рида—Соломона,"Линейность, ранг и декодирование RS",test_reed_solomon,test_encoding_linearity_generator_and_decoding[17-9-5],"{""k"": 5, ""n"": 9, ""p"": 17}",passed,0.100812
+Коды Рида—Соломона,Минимальное расстояние RS полным перебором,test_reed_solomon,test_distance_exhaustively[5-4-1],"{""k"": 1, ""n"": 4, ""p"": 5}",passed,0.000208
+Коды Рида—Соломона,Минимальное расстояние RS полным перебором,test_reed_solomon,test_distance_exhaustively[5-4-2],"{""k"": 2, ""n"": 4, ""p"": 5}",passed,0.000267
+Коды Рида—Соломона,Минимальное расстояние RS полным перебором,test_reed_solomon,test_distance_exhaustively[7-5-3],"{""k"": 3, ""n"": 5, ""p"": 7}",passed,0.002383
+Коды Рида—Соломона,Минимальное расстояние RS полным перебором,test_reed_solomon,test_distance_exhaustively[5-5-5],"{""k"": 5, ""n"": 5, ""p"": 5}",passed,0.021649
+Коды Рида—Соломона,Проверка параметров RS-кода,test_reed_solomon,test_invalid_code[6-2-None],"{""k"": 2, ""n"": 6, ""points"": null}",passed,0.000148
+Коды Рида—Соломона,Проверка параметров RS-кода,test_reed_solomon,test_invalid_code[3-0-None],"{""k"": 0, ""n"": 3, ""points"": null}",passed,0.000154
+Коды Рида—Соломона,Проверка параметров RS-кода,test_reed_solomon,test_invalid_code[3-4-None],"{""k"": 4, ""n"": 3, ""points"": null}",passed,0.000148
+Коды Рида—Соломона,Проверка параметров RS-кода,test_reed_solomon,test_invalid_code[3-2-points3],"{""k"": 2, ""n"": 3, ""points"": [1, 1, 2]}",passed,0.000147
+Коды Рида—Соломона,Проверка параметров RS-кода,test_reed_solomon,test_invalid_code[3-2-points4],"{""k"": 2, ""n"": 3, ""points"": [1, 2]}",passed,0.000161
+Коды Рида—Соломона,"Ошибки кодирования, декодирования и лимитов",test_reed_solomon,test_invalid_encoding_decoding_and_budget,{},passed,0.000145
+Схема Шамира,Восстановление по всем минимальным коалициям,test_shamir,test_all_reconstruction_subsets[5-4-0],"{""n"": 4, ""p"": 5, ""t"": 0}",passed,0.000310
+Схема Шамира,Восстановление по всем минимальным коалициям,test_shamir,test_all_reconstruction_subsets[5-4-1],"{""n"": 4, ""p"": 5, ""t"": 1}",passed,0.000610
+Схема Шамира,Восстановление по всем минимальным коалициям,test_shamir,test_all_reconstruction_subsets[7-6-2],"{""n"": 6, ""p"": 7, ""t"": 2}",passed,0.004074
+Схема Шамира,Восстановление по всем минимальным коалициям,test_shamir,test_all_reconstruction_subsets[11-6-3],"{""n"": 6, ""p"": 11, ""t"": 3}",passed,0.008659
+Схема Шамира,Восстановление по всем минимальным коалициям,test_shamir,test_all_reconstruction_subsets[17-7-2],"{""n"": 7, ""p"": 17, ""t"": 2}",passed,0.016291
+Схема Шамира,Пользовательские точки и нулевые коэффициенты,test_shamir,test_custom_points_and_uniform_zero_leading,{},passed,0.000152
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[0-0-None],"{""n"": 0, ""points"": null, ""t"": 0}",passed,0.000156
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[5-1-None],"{""n"": 5, ""points"": null, ""t"": 1}",passed,0.000160
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[3--1-None],"{""n"": 3, ""points"": null, ""t"": -1}",passed,0.000150
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[3-3-None],"{""n"": 3, ""points"": null, ""t"": 3}",passed,0.000151
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[3-1-points4],"{""n"": 3, ""points"": [0, 1, 2], ""t"": 1}",passed,0.000157
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[3-1-points5],"{""n"": 3, ""points"": [1, 2, 6], ""t"": 1}",passed,0.000155
+Схема Шамира,Проверка параметров схемы,test_shamir,test_invalid_parameters[3-1-points6],"{""n"": 3, ""points"": [1, 2], ""t"": 1}",passed,0.000148
+Схема Шамира,Отклонение некорректных долей,test_shamir,test_invalid_shares[shares0],"{""shares"": []}",passed,0.000122
+Схема Шамира,Отклонение некорректных долей,test_shamir,test_invalid_shares[shares1],"{""shares"": [[1, 2]]}",passed,0.000117
+Схема Шамира,Отклонение некорректных долей,test_shamir,test_invalid_shares[shares2],"{""shares"": [[1, 2], [6, 3]]}",passed,0.000117
+Схема Шамира,Отклонение некорректных долей,test_shamir,test_invalid_shares[shares3],"{""shares"": [[0, 1], [1, 1]]}",passed,0.000118
+Схема Шамира,Отклонение некорректных долей,test_shamir,test_invalid_shares[shares4],"{""shares"": [[4, 1], [1, 1]]}",passed,0.000115
+Схема Шамира,Отклонение некорректных долей,test_shamir,test_invalid_shares[shares5],"{""shares"": [[1, 0], [2, 0], [3, 1]]}",passed,0.000132
+Схема Шамира,Точная приватность малых схем,test_shamir,test_exact_privacy[5-4-1],"{""n"": 4, ""p"": 5, ""t"": 1}",passed,0.000314
+Схема Шамира,Точная приватность малых схем,test_shamir,test_exact_privacy[5-4-2],"{""n"": 4, ""p"": 5, ""t"": 2}",passed,0.002591
+Схема Шамира,Точная приватность малых схем,test_shamir,test_exact_privacy[7-3-1],"{""n"": 3, ""p"": 7, ""t"": 1}",passed,0.000366
+Схема Шамира,Статистическая проверка приватности,test_shamir,test_statistical_privacy_smoke,{},passed,0.099196
