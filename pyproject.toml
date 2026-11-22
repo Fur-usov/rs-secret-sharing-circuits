@@ -18,9 +18,11 @@ py-modules = ["field", "polynomial", "shamir", "reed_solomon", "linear_algebra",
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+cache_dir = ".cache/pytest"
 pythonpath = ["src"]
 
 [tool.ruff]
+cache-dir = ".cache/ruff"
 target-version = "py311"
 line-length = 100
 

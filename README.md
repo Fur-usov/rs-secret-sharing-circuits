@@ -13,10 +13,15 @@
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+export PYTHONPYCACHEPREFIX="$PWD/.cache/python"
 python -m pip install -e '.[dev]'
 python -m pytest -v
 ruff check .
 ```
+
+Pytest и Ruff складывают кэш в `.cache/pytest` и `.cache/ruff`.
+Переменная `PYTHONPYCACHEPREFIX` направляет байткод Python в `.cache/python`.
+Задавайте её из корня проекта в каждом новом терминале.
 
 `pytest` и `ruff` — зависимости разработки; `setuptools` используется для сборки.
 Генераторы по умолчанию используют `secrets.SystemRandom`. Для воспроизводимости
