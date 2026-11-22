@@ -1,0 +1,353 @@
+case,scheme,operation,batch,us_per_call
+"(3,1) × (3,1)",RS,share,1,9.648975
+"(3,1) × (3,1)",RS ∘ RS,share,1,11.9948
+"(3,1) × (3,1)",RS ∘ RS,share,2,11.88125
+"(3,1) × (3,1)",RS,share,2,9.927075
+"(3,1) × (3,1)",RS,share,3,9.760399999999999
+"(3,1) × (3,1)",RS ∘ RS,share,3,12.4979
+"(3,1) × (3,1)",RS ∘ RS,share,4,11.770825
+"(3,1) × (3,1)",RS,share,4,9.932274999999999
+"(3,1) × (3,1)",RS,share,5,9.795825
+"(3,1) × (3,1)",RS ∘ RS,share,5,12.183325
+"(3,1) × (3,1)",RS ∘ RS,share,6,12.169799999999999
+"(3,1) × (3,1)",RS,share,6,9.853125
+"(3,1) × (3,1)",RS,share,7,10.039575000000001
+"(3,1) × (3,1)",RS ∘ RS,share,7,12.234375
+"(3,1) × (3,1)",RS ∘ RS,share,8,12.646875
+"(3,1) × (3,1)",RS,share,8,10.184375
+"(3,1) × (3,1)",RS,share,9,9.76875
+"(3,1) × (3,1)",RS ∘ RS,share,9,12.270825
+"(3,1) × (3,1)",RS ∘ RS,share,10,12.246875
+"(3,1) × (3,1)",RS,share,10,10.040625
+"(3,1) × (3,1)",RS,share,11,9.957275
+"(3,1) × (3,1)",RS ∘ RS,share,11,12.491674999999999
+"(3,1) × (3,1)",RS,reconstruct,1,47.453125
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,1,40.121875
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,2,40.289575
+"(3,1) × (3,1)",RS,reconstruct,2,47.567699999999995
+"(3,1) × (3,1)",RS,reconstruct,3,47.4875
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,3,40.665625
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,4,39.933324999999996
+"(3,1) × (3,1)",RS,reconstruct,4,47.3896
+"(3,1) × (3,1)",RS,reconstruct,5,47.588550000000005
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,5,39.614599999999996
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,6,39.65835
+"(3,1) × (3,1)",RS,reconstruct,6,47.53125
+"(3,1) × (3,1)",RS,reconstruct,7,48.223949999999995
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,7,39.521875
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,8,39.65
+"(3,1) × (3,1)",RS,reconstruct,8,47.502075
+"(3,1) × (3,1)",RS,reconstruct,9,47.482275
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,9,39.966675
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,10,39.74585
+"(3,1) × (3,1)",RS,reconstruct,10,47.633325
+"(3,1) × (3,1)",RS,reconstruct,11,47.63125
+"(3,1) × (3,1)",RS ∘ RS,reconstruct,11,40.735425000000006
+"(3,1) × (3,1)",RS,multiply,1,6.201025
+"(3,1) × (3,1)",RS ∘ RS,multiply,1,11.773975
+"(3,1) × (3,1)",RS ∘ RS,multiply,2,11.8427
+"(3,1) × (3,1)",RS,multiply,2,6.347899999999999
+"(3,1) × (3,1)",RS,multiply,3,6.10105
+"(3,1) × (3,1)",RS ∘ RS,multiply,3,11.708325
+"(3,1) × (3,1)",RS ∘ RS,multiply,4,11.8104
+"(3,1) × (3,1)",RS,multiply,4,6.408325
+"(3,1) × (3,1)",RS,multiply,5,6.3427
+"(3,1) × (3,1)",RS ∘ RS,multiply,5,11.716674999999999
+"(3,1) × (3,1)",RS ∘ RS,multiply,6,11.680200000000001
+"(3,1) × (3,1)",RS,multiply,6,6.672925
+"(3,1) × (3,1)",RS,multiply,7,6.3125
+"(3,1) × (3,1)",RS ∘ RS,multiply,7,12.260399999999999
+"(3,1) × (3,1)",RS ∘ RS,multiply,8,11.867725
+"(3,1) × (3,1)",RS,multiply,8,6.63335
+"(3,1) × (3,1)",RS,multiply,9,6.721875
+"(3,1) × (3,1)",RS ∘ RS,multiply,9,11.63125
+"(3,1) × (3,1)",RS ∘ RS,multiply,10,11.6896
+"(3,1) × (3,1)",RS,multiply,10,6.359375
+"(3,1) × (3,1)",RS,multiply,11,6.338525
+"(3,1) × (3,1)",RS ∘ RS,multiply,11,11.63125
+"(3,1) × (3,1)",RS,reconstruct_product,1,27.38125
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,1,34.948949999999996
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,2,35.745824999999996
+"(3,1) × (3,1)",RS,reconstruct_product,2,27.33645
+"(3,1) × (3,1)",RS,reconstruct_product,3,27.490625
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,3,34.947925000000005
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,4,35.008325
+"(3,1) × (3,1)",RS,reconstruct_product,4,27.31145
+"(3,1) × (3,1)",RS,reconstruct_product,5,27.160400000000003
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,5,35.4104
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,6,34.914575
+"(3,1) × (3,1)",RS,reconstruct_product,6,27.405224999999998
+"(3,1) × (3,1)",RS,reconstruct_product,7,27.373974999999998
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,7,34.969800000000006
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,8,34.855199999999996
+"(3,1) × (3,1)",RS,reconstruct_product,8,27.59165
+"(3,1) × (3,1)",RS,reconstruct_product,9,27.621875
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,9,35.41355
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,10,35.320825
+"(3,1) × (3,1)",RS,reconstruct_product,10,27.3125
+"(3,1) × (3,1)",RS,reconstruct_product,11,27.0875
+"(3,1) × (3,1)",RS ∘ RS,reconstruct_product,11,35.373949999999994
+"(4,1) × (4,1)",RS,share,1,17.0125
+"(4,1) × (4,1)",RS ∘ RS,share,1,19.396875
+"(4,1) × (4,1)",RS ∘ RS,share,2,19.33335
+"(4,1) × (4,1)",RS,share,2,17.1052
+"(4,1) × (4,1)",RS,share,3,17.00625
+"(4,1) × (4,1)",RS ∘ RS,share,3,19.265625
+"(4,1) × (4,1)",RS ∘ RS,share,4,19.266675
+"(4,1) × (4,1)",RS,share,4,17.20835
+"(4,1) × (4,1)",RS,share,5,17.52395
+"(4,1) × (4,1)",RS ∘ RS,share,5,19.325
+"(4,1) × (4,1)",RS ∘ RS,share,6,19.302075000000002
+"(4,1) × (4,1)",RS,share,6,17.0927
+"(4,1) × (4,1)",RS,share,7,17.251025000000002
+"(4,1) × (4,1)",RS ∘ RS,share,7,19.553125
+"(4,1) × (4,1)",RS ∘ RS,share,8,18.852075
+"(4,1) × (4,1)",RS,share,8,16.99375
+"(4,1) × (4,1)",RS,share,9,17.315625
+"(4,1) × (4,1)",RS ∘ RS,share,9,19.384375
+"(4,1) × (4,1)",RS ∘ RS,share,10,19.122925
+"(4,1) × (4,1)",RS,share,10,17.0375
+"(4,1) × (4,1)",RS,share,11,17.442700000000002
+"(4,1) × (4,1)",RS ∘ RS,share,11,19.08125
+"(4,1) × (4,1)",RS,reconstruct,1,47.830225
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,1,40.590625
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,2,40.53125
+"(4,1) × (4,1)",RS,reconstruct,2,48.478125
+"(4,1) × (4,1)",RS,reconstruct,3,48.003125
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,3,40.28125
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,4,39.936449999999994
+"(4,1) × (4,1)",RS,reconstruct,4,47.463525000000004
+"(4,1) × (4,1)",RS,reconstruct,5,45.275
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,5,38.423975
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,6,38.690625
+"(4,1) × (4,1)",RS,reconstruct,6,47.04375
+"(4,1) × (4,1)",RS,reconstruct,7,46.34165
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,7,39.541675000000005
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,8,39.307275000000004
+"(4,1) × (4,1)",RS,reconstruct,8,47.113550000000004
+"(4,1) × (4,1)",RS,reconstruct,9,47.690625
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,9,39.751050000000006
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,10,39.4
+"(4,1) × (4,1)",RS,reconstruct,10,47.497925
+"(4,1) × (4,1)",RS,reconstruct,11,47.540625
+"(4,1) × (4,1)",RS ∘ RS,reconstruct,11,40.279175
+"(4,1) × (4,1)",RS,multiply,1,9.7375
+"(4,1) × (4,1)",RS ∘ RS,multiply,1,20.09165
+"(4,1) × (4,1)",RS ∘ RS,multiply,2,20.264575
+"(4,1) × (4,1)",RS,multiply,2,9.794799999999999
+"(4,1) × (4,1)",RS,multiply,3,9.601025
+"(4,1) × (4,1)",RS ∘ RS,multiply,3,20.03125
+"(4,1) × (4,1)",RS ∘ RS,multiply,4,19.982275
+"(4,1) × (4,1)",RS,multiply,4,9.95625
+"(4,1) × (4,1)",RS,multiply,5,9.409375
+"(4,1) × (4,1)",RS ∘ RS,multiply,5,19.80105
+"(4,1) × (4,1)",RS ∘ RS,multiply,6,19.9625
+"(4,1) × (4,1)",RS,multiply,6,9.613525
+"(4,1) × (4,1)",RS,multiply,7,9.591674999999999
+"(4,1) × (4,1)",RS ∘ RS,multiply,7,20.408325
+"(4,1) × (4,1)",RS ∘ RS,multiply,8,19.671875
+"(4,1) × (4,1)",RS,multiply,8,9.63125
+"(4,1) × (4,1)",RS,multiply,9,9.690625
+"(4,1) × (4,1)",RS ∘ RS,multiply,9,19.880225
+"(4,1) × (4,1)",RS ∘ RS,multiply,10,19.71145
+"(4,1) × (4,1)",RS,multiply,10,9.8073
+"(4,1) × (4,1)",RS,multiply,11,9.7
+"(4,1) × (4,1)",RS ∘ RS,multiply,11,19.754150000000003
+"(4,1) × (4,1)",RS,reconstruct_product,1,27.41875
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,1,34.805225
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,2,34.8625
+"(4,1) × (4,1)",RS,reconstruct_product,2,27.183325
+"(4,1) × (4,1)",RS,reconstruct_product,3,27.1875
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,3,35.1021
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,4,34.971875
+"(4,1) × (4,1)",RS,reconstruct_product,4,27.339575
+"(4,1) × (4,1)",RS,reconstruct_product,5,27.289575
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,5,34.940625
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,6,35.039575
+"(4,1) × (4,1)",RS,reconstruct_product,6,27.1021
+"(4,1) × (4,1)",RS,reconstruct_product,7,27.488525000000003
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,7,34.759375
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,8,35.0396
+"(4,1) × (4,1)",RS,reconstruct_product,8,27.1073
+"(4,1) × (4,1)",RS,reconstruct_product,9,27.85
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,9,34.970825
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,10,35.03335
+"(4,1) × (4,1)",RS,reconstruct_product,10,27.121875
+"(4,1) × (4,1)",RS,reconstruct_product,11,27.486475
+"(4,1) × (4,1)",RS ∘ RS,reconstruct_product,11,35.425
+"(4,1) × (5,2)",RS,share,1,29.68125
+"(4,1) × (5,2)",RS ∘ RS,share,1,27.427075000000002
+"(4,1) × (5,2)",RS ∘ RS,share,2,27.5125
+"(4,1) × (5,2)",RS,share,2,29.621875
+"(4,1) × (5,2)",RS,share,3,29.6948
+"(4,1) × (5,2)",RS ∘ RS,share,3,27.569775
+"(4,1) × (5,2)",RS ∘ RS,share,4,27.619799999999998
+"(4,1) × (5,2)",RS,share,4,29.84375
+"(4,1) × (5,2)",RS,share,5,29.444775
+"(4,1) × (5,2)",RS ∘ RS,share,5,27.629175
+"(4,1) × (5,2)",RS ∘ RS,share,6,27.53335
+"(4,1) × (5,2)",RS,share,6,29.378125
+"(4,1) × (5,2)",RS,share,7,29.8552
+"(4,1) × (5,2)",RS ∘ RS,share,7,27.741675
+"(4,1) × (5,2)",RS ∘ RS,share,8,27.478125
+"(4,1) × (5,2)",RS,share,8,29.3979
+"(4,1) × (5,2)",RS,share,9,29.670825
+"(4,1) × (5,2)",RS ∘ RS,share,9,27.6
+"(4,1) × (5,2)",RS ∘ RS,share,10,27.941675
+"(4,1) × (5,2)",RS,share,10,29.557299999999998
+"(4,1) × (5,2)",RS,share,11,29.696875
+"(4,1) × (5,2)",RS ∘ RS,share,11,27.8
+"(4,1) × (5,2)",RS,reconstruct,1,122.578125
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,1,69.072925
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,2,68.197925
+"(4,1) × (5,2)",RS,reconstruct,2,122.70625
+"(4,1) × (5,2)",RS,reconstruct,3,122.56772500000001
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,3,68.8875
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,4,68.447925
+"(4,1) × (5,2)",RS,reconstruct,4,123.334375
+"(4,1) × (5,2)",RS,reconstruct,5,122.7073
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,5,68.644775
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,6,68.25835000000001
+"(4,1) × (5,2)",RS,reconstruct,6,122.81875
+"(4,1) × (5,2)",RS,reconstruct,7,122.76665
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,7,68.334375
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,8,68.384375
+"(4,1) × (5,2)",RS,reconstruct,8,123.56457499999999
+"(4,1) × (5,2)",RS,reconstruct,9,121.073975
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,9,67.325
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,10,67.69375
+"(4,1) × (5,2)",RS,reconstruct,10,122.383325
+"(4,1) × (5,2)",RS,reconstruct,11,122.878125
+"(4,1) × (5,2)",RS ∘ RS,reconstruct,11,68.59375
+"(4,1) × (5,2)",RS,multiply,1,12.019775
+"(4,1) × (5,2)",RS ∘ RS,multiply,1,24.333325000000002
+"(4,1) × (5,2)",RS ∘ RS,multiply,2,24.545825
+"(4,1) × (5,2)",RS,multiply,2,12.0573
+"(4,1) × (5,2)",RS,multiply,3,12.0302
+"(4,1) × (5,2)",RS ∘ RS,multiply,3,24.296875
+"(4,1) × (5,2)",RS ∘ RS,multiply,4,24.470825
+"(4,1) × (5,2)",RS,multiply,4,12.861450000000001
+"(4,1) × (5,2)",RS,multiply,5,11.971875
+"(4,1) × (5,2)",RS ∘ RS,multiply,5,24.4875
+"(4,1) × (5,2)",RS ∘ RS,multiply,6,24.4073
+"(4,1) × (5,2)",RS,multiply,6,12.09895
+"(4,1) × (5,2)",RS,multiply,7,12.047925
+"(4,1) × (5,2)",RS ∘ RS,multiply,7,24.422900000000002
+"(4,1) × (5,2)",RS ∘ RS,multiply,8,24.15
+"(4,1) × (5,2)",RS,multiply,8,12.69375
+"(4,1) × (5,2)",RS,multiply,9,12.048950000000001
+"(4,1) × (5,2)",RS ∘ RS,multiply,9,24.44375
+"(4,1) × (5,2)",RS ∘ RS,multiply,10,24.330225
+"(4,1) × (5,2)",RS,multiply,10,12.15
+"(4,1) × (5,2)",RS,multiply,11,12.0
+"(4,1) × (5,2)",RS ∘ RS,multiply,11,24.390625
+"(4,1) × (5,2)",RS,reconstruct_product,1,61.873975
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,1,63.55625
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,2,63.686449999999994
+"(4,1) × (5,2)",RS,reconstruct_product,2,61.2625
+"(4,1) × (5,2)",RS,reconstruct_product,3,61.409375
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,3,63.6396
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,4,63.582275
+"(4,1) × (5,2)",RS,reconstruct_product,4,61.833324999999995
+"(4,1) × (5,2)",RS,reconstruct_product,5,61.496875
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,5,64.072925
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,6,63.8573
+"(4,1) × (5,2)",RS,reconstruct_product,6,61.113525
+"(4,1) × (5,2)",RS,reconstruct_product,7,61.722925000000004
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,7,63.519800000000004
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,8,63.572925000000005
+"(4,1) × (5,2)",RS,reconstruct_product,8,61.46875
+"(4,1) × (5,2)",RS,reconstruct_product,9,61.1427
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,9,64.109375
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,10,63.740625
+"(4,1) × (5,2)",RS,reconstruct_product,10,61.435425
+"(4,1) × (5,2)",RS,reconstruct_product,11,61.159375
+"(4,1) × (5,2)",RS ∘ RS,reconstruct_product,11,64.272925
+"(5,2) × (4,1)",RS,share,1,28.36665
+"(5,2) × (4,1)",RS ∘ RS,share,1,24.109375
+"(5,2) × (4,1)",RS ∘ RS,share,2,24.066650000000003
+"(5,2) × (4,1)",RS,share,2,29.266675
+"(5,2) × (4,1)",RS,share,3,29.59375
+"(5,2) × (4,1)",RS ∘ RS,share,3,24.12395
+"(5,2) × (4,1)",RS ∘ RS,share,4,24.409375
+"(5,2) × (4,1)",RS,share,4,29.4375
+"(5,2) × (4,1)",RS,share,5,29.79165
+"(5,2) × (4,1)",RS ∘ RS,share,5,24.821875
+"(5,2) × (4,1)",RS ∘ RS,share,6,24.852075
+"(5,2) × (4,1)",RS,share,6,29.829150000000002
+"(5,2) × (4,1)",RS,share,7,29.84375
+"(5,2) × (4,1)",RS ∘ RS,share,7,24.90625
+"(5,2) × (4,1)",RS ∘ RS,share,8,24.884375
+"(5,2) × (4,1)",RS,share,8,29.6854
+"(5,2) × (4,1)",RS,share,9,29.284375
+"(5,2) × (4,1)",RS ∘ RS,share,9,24.948974999999997
+"(5,2) × (4,1)",RS ∘ RS,share,10,24.922925
+"(5,2) × (4,1)",RS,share,10,29.63855
+"(5,2) × (4,1)",RS,share,11,29.8354
+"(5,2) × (4,1)",RS ∘ RS,share,11,25.13125
+"(5,2) × (4,1)",RS,reconstruct,1,123.97710000000001
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,1,67.2448
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,2,67.370825
+"(5,2) × (4,1)",RS,reconstruct,2,124.3375
+"(5,2) × (4,1)",RS,reconstruct,3,123.80625
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,3,67.3
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,4,67.414575
+"(5,2) × (4,1)",RS,reconstruct,4,124.528125
+"(5,2) × (4,1)",RS,reconstruct,5,123.91664999999999
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,5,69.24792500000001
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,6,64.9229
+"(5,2) × (4,1)",RS,reconstruct,6,120.05105
+"(5,2) × (4,1)",RS,reconstruct,7,122.12605
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,7,66.9927
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,8,66.91980000000001
+"(5,2) × (4,1)",RS,reconstruct,8,123.240625
+"(5,2) × (4,1)",RS,reconstruct,9,123.813525
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,9,68.109375
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,10,67.675
+"(5,2) × (4,1)",RS,reconstruct,10,124.3396
+"(5,2) × (4,1)",RS,reconstruct,11,124.2
+"(5,2) × (4,1)",RS ∘ RS,reconstruct,11,67.321875
+"(5,2) × (4,1)",RS,multiply,1,12.0302
+"(5,2) × (4,1)",RS ∘ RS,multiply,1,24.86875
+"(5,2) × (4,1)",RS ∘ RS,multiply,2,25.0073
+"(5,2) × (4,1)",RS,multiply,2,12.184375
+"(5,2) × (4,1)",RS,multiply,3,11.951049999999999
+"(5,2) × (4,1)",RS ∘ RS,multiply,3,25.157275000000002
+"(5,2) × (4,1)",RS ∘ RS,multiply,4,25.108325
+"(5,2) × (4,1)",RS,multiply,4,12.0823
+"(5,2) × (4,1)",RS,multiply,5,12.320825000000001
+"(5,2) × (4,1)",RS ∘ RS,multiply,5,25.053125
+"(5,2) × (4,1)",RS ∘ RS,multiply,6,24.828125
+"(5,2) × (4,1)",RS,multiply,6,12.163549999999999
+"(5,2) × (4,1)",RS,multiply,7,12.001025
+"(5,2) × (4,1)",RS ∘ RS,multiply,7,24.93125
+"(5,2) × (4,1)",RS ∘ RS,multiply,8,24.76355
+"(5,2) × (4,1)",RS,multiply,8,12.2104
+"(5,2) × (4,1)",RS,multiply,9,12.191675
+"(5,2) × (4,1)",RS ∘ RS,multiply,9,25.539575
+"(5,2) × (4,1)",RS ∘ RS,multiply,10,24.9625
+"(5,2) × (4,1)",RS,multiply,10,12.190625
+"(5,2) × (4,1)",RS,multiply,11,11.9948
+"(5,2) × (4,1)",RS ∘ RS,multiply,11,24.61145
+"(5,2) × (4,1)",RS,reconstruct_product,1,61.072925000000005
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,1,61.214574999999996
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,2,61.391675000000006
+"(5,2) × (4,1)",RS,reconstruct_product,2,61.214574999999996
+"(5,2) × (4,1)",RS,reconstruct_product,3,61.04375
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,3,61.10625
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,4,61.379175000000004
+"(5,2) × (4,1)",RS,reconstruct_product,4,61.202074999999994
+"(5,2) × (4,1)",RS,reconstruct_product,5,61.144800000000004
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,5,61.219800000000006
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,6,61.68125
+"(5,2) × (4,1)",RS,reconstruct_product,6,61.8927
+"(5,2) × (4,1)",RS,reconstruct_product,7,61.36875
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,7,62.05
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,8,61.032300000000006
+"(5,2) × (4,1)",RS,reconstruct_product,8,61.23645
+"(5,2) × (4,1)",RS,reconstruct_product,9,61.260425000000005
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,9,61.454175000000006
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,10,61.52915
+"(5,2) × (4,1)",RS,reconstruct_product,10,61.9646
+"(5,2) × (4,1)",RS,reconstruct_product,11,61.421875
+"(5,2) × (4,1)",RS ∘ RS,reconstruct_product,11,61.119800000000005

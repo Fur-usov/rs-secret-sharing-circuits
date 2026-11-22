@@ -482,7 +482,7 @@ def main(arguments: list[str] | None = None) -> int:
     global _REPORT_COMMAND
 
     args = list(sys.argv[1:] if arguments is None else arguments)
-    _REPORT_COMMAND = shlex.join(["python", "research_report.py", *args])
+    _REPORT_COMMAND = shlex.join(["python", "-m", "research_report", *args])
     output = _option_value(args, "--research-report")
     if output is None:
         output = "results"

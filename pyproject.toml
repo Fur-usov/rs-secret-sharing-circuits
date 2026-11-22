@@ -13,11 +13,12 @@ dependencies = []
 dev = ["pytest>=8", "ruff>=0.6"]
 
 [tool.setuptools]
+package-dir = {"" = "src"}
 py-modules = ["field", "polynomial", "shamir", "reed_solomon", "linear_algebra", "code_square", "multiplication", "concatenation", "research_report", "experimental_report"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = ["src"]
 
 [tool.ruff]
 target-version = "py311"

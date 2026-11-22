@@ -158,3 +158,26 @@ def test_invalid_structure_and_fields(rng):
         c.is_authorized([(True, 0)])
     with pytest.raises(ValueError):
         c.multiply_shares(c.share(2, rng), c.share(3, rng)[:-1])
+
+
+@pytest.mark.parametrize("no,to,ni,ti,strong", [
+    (3, 1, 3, 1, False), (4, 1, 4, 1, True),
+    (4, 1, 5, 2, False), (5, 2, 4, 1, False),
+])
+def test_product_after_private_deletions(no, to, ni, ti, strong, rng):
+    from itertools import combinations_with_replacement
+
+    c = make_composition(31, no, to, ni, ti)
+    shares = c.multiply_shares(c.share(7, rng), c.share(11, rng))
+    failures = 0
+    # Access depends only on counts in each block, up to permutations.
+    for counts in combinations_with_replacement(range(ni + 1), no):
+        removed = [s.identifier for s in shares if s.participant < counts[s.block]]
+        if not c.is_private(removed):
+            continue
+        remaining = [s for s in shares if s.participant >= counts[s.block]]
+        if not c.can_reconstruct_product(s.identifier for s in remaining):
+            failures += 1
+            continue
+        assert c.reconstruct_product(remaining) == 7 * 11 % 31
+    assert (failures == 0) == strong
